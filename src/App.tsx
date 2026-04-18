@@ -277,7 +277,13 @@ export default function AnHaLandingPage() {
                 >
                   Liên hệ tư vấn ngay
                 </a>
-                <button className="bg-transparent border-2 border-white/30 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors">Tải Catalogue</button>
+                <a
+                  href="AHTN_catalogue.pdf"
+                  download="AHTN_catalogue.pdf"
+                  className="bg-transparent border-2 border-white/30 text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors inline-block text-center"
+                >
+                  Tải Catalogue
+                </a>
               </div>
             </div>
           </div>
