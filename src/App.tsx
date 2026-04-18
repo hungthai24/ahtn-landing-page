@@ -49,8 +49,8 @@ export default function AnHaLandingPage() {
               className="h-9 md:h-[3.6rem] w-auto object-contain"
               src="/logo.png"
             />
-            <div className="text-sm md:text-lg font-bold tracking-tight text-orange-900 font-headline uppercase leading-[0.9]">
-              AN HA<span className="text-[8px] md:text-[10px] tracking-[0.1em] md:tracking-[0.2em] font-medium opacity-80 block mt-0.5 md:mt-0">TAY NINH</span>
+            <div className="text-sm md:text-lg font-bold tracking-tight text-orange-900 font-headline uppercase leading-none">
+              AN HA<span className="text-[8px] md:text-[10px] tracking-[0.1em] md:tracking-[0.2em] font-medium opacity-80 block -mt-0.5 md:-mt-1">TAY NINH</span>
             </div>
           </a>
           <nav className="hidden lg:flex items-center space-x-8 font-label">
