@@ -353,9 +353,9 @@ export default function AnHaLandingPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-stone-500 dark:text-stone-500 text-xs">
           <p>© 2026 An Hạ Tây Ninh. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a className="hover:text-orange-700 dark:hover:text-orange-300 underline transition-all cursor-pointer" href="#">Facebook</a>
-            <a className="hover:text-orange-700 dark:hover:text-orange-300 underline transition-all cursor-pointer" href="#">Email</a>
-            <a className="hover:text-orange-700 dark:hover:text-orange-300 underline transition-all cursor-pointer" href="#">Zalo</a>
+            <a className="hover:text-orange-700 dark:hover:text-orange-300 underline transition-all cursor-pointer" target="_blank" href="https://www.facebook.com/anhatayninh">Facebook</a>
+            <a className="hover:text-orange-700 dark:hover:text-orange-300 underline transition-all cursor-pointer" href={mailtoLink}>Email</a>
+            <a className="hover:text-orange-700 dark:hover:text-orange-300 underline transition-all cursor-pointer" href="https://zalo.me/0906664660">Zalo</a>
           </div>
         </div>
       </footer>
