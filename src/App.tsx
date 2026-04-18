@@ -49,8 +49,9 @@ export default function AnHaLandingPage() {
               className="h-9 md:h-[3.6rem] w-auto object-contain"
               src="/logo.png"
             />
-            <div className="text-sm md:text-lg font-bold tracking-tight text-orange-900 font-headline uppercase leading-none">
-              AN HA<span className="text-[8px] md:text-[10px] tracking-[0.1em] md:tracking-[0.2em] font-medium opacity-80 block mt-[2px]">TAY NINH</span>
+            <div className="flex flex-col justify-center text-sm md:text-lg font-bold tracking-tight text-orange-900 font-headline uppercase leading-none">
+              <span>AN HA</span>
+              <span className="text-[10px] tracking-[0.2em] font-medium opacity-80 md:-mt-2">TAY NINH</span>
             </div>
           </a>
           <nav className="hidden lg:flex items-center space-x-8 font-label">
@@ -317,7 +318,7 @@ export default function AnHaLandingPage() {
             <div className="font-bold text-orange-900 uppercase tracking-wider">Chứng chỉ &amp; Cam kết</div>
             <ul className="space-y-3">
               <li className="text-stone-600">Certifications: ISO 9001, FSC</li>
-              <li 
+              <li
                 className="text-stone-600 hover:text-primary cursor-pointer transition-colors"
                 onClick={() => setModalContent({
                   title: "Chính sách bảo mật thông tin",
@@ -326,7 +327,7 @@ export default function AnHaLandingPage() {
               >
                 Cam kết bảo mật thông tin
               </li>
-              <li 
+              <li
                 className="text-stone-600 hover:text-primary cursor-pointer transition-colors"
                 onClick={() => setModalContent({
                   title: "Chính sách chất lượng",
@@ -340,11 +341,11 @@ export default function AnHaLandingPage() {
         </div>
         <div className="max-w-7xl mx-auto bg-stone-200 h-[1px] my-8"></div>
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-stone-500 text-xs">
-          <p>© 2026 An Hà Tây Ninh. All rights reserved.</p>
+          <p>© 2026 An Hạ Tây Ninh. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a className="hover:text-orange-700 underline transition-all cursor-pointer" href="#">Facebook</a>
-            <a className="hover:text-orange-700 underline transition-all cursor-pointer" href="#">Email</a>
-            <a className="hover:text-orange-700 underline transition-all cursor-pointer" href="#">Zalo</a>
+            <a className="hover:text-orange-700 underline transition-all cursor-pointer" target="_blank" href="https://www.facebook.com/anhatayninh">Facebook</a>
+            <a className="hover:text-orange-700 underline transition-all cursor-pointer" href={mailtoLink}>Email</a>
+            <a className="hover:text-orange-700 underline transition-all cursor-pointer" target="_blank" href="https://zalo.me/0906664660">Zalo</a>
           </div>
         </div>
       </footer>
