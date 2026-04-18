@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 // Make sure to include the global styles for material symbols:
 // @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&family=Manrope:wght@400;500;600&display=swap');
