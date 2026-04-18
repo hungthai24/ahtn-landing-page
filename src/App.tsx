@@ -47,7 +47,7 @@ export default function AnHaLandingPage() {
             <img
               alt="An Hạ Tây Ninh Logo"
               className="h-[3.6rem] w-auto object-contain"
-              src="/logo.png"
+              src="logo.png"
             />
             <div className="text-lg font-bold tracking-tight text-orange-900 dark:text-orange-500 font-headline uppercase leading-[0.9]">
               AN HA<span className="text-[10px] tracking-[0.2em] font-medium opacity-80 block mt-1">TAY NINH</span>
@@ -111,7 +111,7 @@ export default function AnHaLandingPage() {
             <img
               className="w-full h-full object-cover brightness-[0.35]"
               alt="Modern carton box manufacturing facility with organized stacks of cardboard boxes on pallets."
-              src="/hero.webp"
+              src="hero.webp"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
           </div>
@@ -146,7 +146,7 @@ export default function AnHaLandingPage() {
                 <img
                   className="w-full h-full object-cover brightness-[0.35]"
                   alt="Modern carton box manufacturing facility with organized stacks of cardboard boxes on pallets."
-                  src="/hero.webp"
+                  src="hero.webp"
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-tertiary/20 backdrop-blur-xl rounded-xl -z-10 -rotate-6"></div>
@@ -169,7 +169,7 @@ export default function AnHaLandingPage() {
                 <img
                   className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-700"
                   alt="Wide angle view of stacked brown carton boxes"
-                  src="/carton.webp"
+                  src="carton.webp"
                 />
                 <div className="absolute bottom-0 left-0 p-10 z-20">
                   <span className="inline-block px-3 py-1 bg-tertiary text-on-tertiary text-xs font-bold rounded mb-4">BEST SELLER</span>
@@ -184,7 +184,7 @@ export default function AnHaLandingPage() {
                   <img
                     alt="Bao bì in Flexo"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    src="/flexo.webp"
+                    src="flexo.webp"
                   />
                 </div>
                 <div className="p-8 flex-1 flex flex-col justify-between">
@@ -207,7 +207,7 @@ export default function AnHaLandingPage() {
                   <img
                     alt="Bao bì in Offset"
                     className="w-full h-full object-cover"
-                    src="/offset.webp"
+                    src="offset.webp"
                   />
                 </div>
                 <div className="p-8 flex-1">
@@ -226,7 +226,7 @@ export default function AnHaLandingPage() {
                 <img
                   alt="Custom packaging design"
                   className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-700"
-                  src="/custom.webp"
+                  src="custom.webp"
                 />
                 <div className="absolute bottom-0 left-0 p-10 z-20 w-full md:w-2/3">
                   <h3 className="text-3xl font-headline font-bold text-white mb-4">Gia công theo yêu cầu</h3>
@@ -302,7 +302,7 @@ export default function AnHaLandingPage() {
               <img
                 alt="An Hạ Tây Ninh Logo"
                 className="h-[3.6rem] w-auto object-contain"
-                src="/logo.png"
+                src="logo.png"
               />
               <div className="text-lg font-bold text-stone-900 dark:text-stone-100 uppercase leading-none">
                 AN HA<span className="text-[10px] tracking-[0.2em] font-medium opacity-80 block mt-1">TAY NINH</span>
