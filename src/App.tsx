@@ -353,22 +353,22 @@ export default function AnHaLandingPage() {
       {/* Policy Modal */}
       {modalContent && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
-          <div className="bg-white dark:bg-stone-900 w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
-            <div className="p-6 border-b border-stone-100 dark:border-stone-800 flex justify-between items-center">
-              <h3 className="text-xl font-bold text-primary dark:text-orange-500 tracking-tight">{modalContent.title}</h3>
+          <div className="bg-white w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
+            <div className="p-6 border-b border-stone-100 flex justify-between items-center">
+              <h3 className="text-xl font-bold text-primary tracking-tight">{modalContent.title}</h3>
               <button
                 onClick={() => setModalContent(null)}
-                className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
+                className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-stone-100 transition-colors"
               >
                 <span className="material-symbols-outlined text-stone-500">close</span>
               </button>
             </div>
             <div className="p-8 max-h-[70vh] overflow-y-auto">
-              <p className="text-stone-600 dark:text-stone-300 leading-relaxed font-medium whitespace-pre-wrap text-sm">
+              <p className="text-stone-600 leading-relaxed font-medium whitespace-pre-wrap text-sm">
                 {modalContent.content}
               </p>
             </div>
-            <div className="p-6 border-t border-stone-100 dark:border-stone-800 flex justify-end">
+            <div className="p-6 border-t border-stone-100 flex justify-end">
               <button
                 onClick={() => setModalContent(null)}
                 className="bg-primary text-white px-8 py-2.5 rounded hover:opacity-90 transition-opacity font-bold text-sm"
